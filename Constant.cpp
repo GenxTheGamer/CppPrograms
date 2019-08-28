@@ -6,8 +6,7 @@ class student{
 	int count;
 	const int constt=0;
 	public:
-		void display(){
-		}
+		void display();
 };
 void student::display(){
 	cout<<"Count is 1"<<endl;
