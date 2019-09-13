@@ -9,7 +9,7 @@ class abc{
 			cout<<"This is constructor"<<endl;
 		}
 		abc(int b){
-			b=a;
+			a=b;
 			cout<<"b="<<b<<endl<<endl;
 		}
 		~abc(){
@@ -18,11 +18,13 @@ class abc{
 };
 
 int main(){
-	abc h;
-	{
+	abc h4(6);
+	
 		abc h1(2);
+		abc h2(3);
 		abc h3;
-	}
 	getch();
 	return 0;
+	
 }
+

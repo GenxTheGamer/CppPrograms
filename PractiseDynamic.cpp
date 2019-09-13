@@ -7,16 +7,16 @@ class abc{
 	int b;
 	int c;
 	public:
-		void get(){
-			a=10;
-			b=20;
-			c=30;
-		}
-		void display(){
-			cout<<a<<endl;
-			cout<<b<<endl;
-			cout<<c<<endl;
-		}
+	void get(){
+		a=10;
+		b=20;
+		c=30;
+	}
+	void display(){
+		cout<<a<<endl;
+		cout<<b<<endl;
+		cout<<c<<endl;
+	}
 };
 
 int main(){
@@ -28,9 +28,9 @@ int main(){
 		cout<<endl;
 	}
 	delete[]e;
-	e[i];
+	e[3];
 	e->display();
-	cout<<"<--- Garbage Value";
+	cout<<"garbage value";
 	getch();
 	return 0;
 }
